@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex justify-center bg-purple-100 p-6">
+        <ui class="flex flex-row list-none space-x-10">
+            <li>Home</li>
+            <li>Sign Up</li>
+            <li>Search</li>
+            <li>Support</li>
+            <li>Donate</li>
+        </ui>
+        
+    </div>
+    <div class="flex bg-blue-200 h-screen">
+        <div class="w-1/2 border-4 p-6 space-y-10">
+            <div class="card w-full bg-base-100 shadow-xl">
+                <figure><img class="w-full h-1/2"src="https://picsum.photos/300/300" alt="profile"/></figure>
+                <div class=" flex justify-between p-3">
+                    <h2 class="ml-5">
+                        NAME 
+                        <div class="badge badge-secondary">VERIFIED</div>
+                    </h2>
+                    <p class="text-xs">QUOTE</p>
+                    <div class="card-actions">
+                        <div class="badge badge-outline">TRAITS</div>
+                        <div class="badge badge-outline">TRAITS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-2 flex flex-col space-y-4 justify-center items-center p-3 rounded-md shadow-xl bg-base-100">
+                <p>FRIEND ID</p>
+                <p>PHONE NUMBER</p>
+                <p>EMAIL</p>
+                <p>SOCIAL MEDIA</p>
+
+            </div>
+            <div class="border-2 flex flex-col space-y-2 justify-center items-center p-3 rounded-md shadow-xl bg-base-100">
+                <p>MORE DETAILED HOBBIES LIST</p>
+                <ul>
+                    <li>HOBBY 1</li>
+                    <li>HOBBY 2</li>
+                    <li>HOBBY 3</li>
+                    <li>HOBBY 4</li>
+                    <li>HOBBY 5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-1/2 border-4 flex flex-col p-6 space-y-10">
+            <div class="border-2 text-4xl font-bold text-center rounded-md p-3 shadow-xl bg-base-100">THIS PERSON IS NEAR YOU</div>
+            <div class="border-2 p-3 rounded-md shadow-xl bg-base-100">
+                <p>ABOUT ME</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="border-2 p-3 rounded-md shadow-xl bg-base-100">
+                <p>RECENT POSTS</p>
+                <div class="flex justify-between">
+                    <p>POST CONTENT</p>
+                    <p>DATE</p>
+                </div>
+                <div class="flex justify-between">
+                    <p>POST CONTENT</p>
+                    <p>DATE</p>
+                </div>
+                <div class="flex justify-between">
+                    <p>POST CONTENT</p>
+                    <p>DATE</p>
+                </div>
+                <div class="flex justify-between">
+                    <p>POST CONTENT</p>
+                    <p>DATE</p>
+                </div>
+
+            </div>
+            <div class="border-2 text-center p-3 rounded-md shadow-xl bg-base-100">FRIENDS: 237</div>
+            <div class="flex justify-between space-x-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                  </svg>
+                  <div class="flex bg-white rounded-md border w-full">
+                        <input class="outline-none rounded-md w-full"type="text">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                        </svg>
+                 </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 14H5.236a2 2 0 01-1.789-2.894l3.5-7A2 2 0 018.736 3h4.018a2 2 0 01.485.06l3.76.94m-7 10v5a2 2 0 002 2h.096c.5 0 .905-.405.905-.904 0-.715.211-1.413.608-2.008L17 13V4m-7 10h2m5-10h2a2 2 0 012 2v6a2 2 0 01-2 2h-2.5" />
+                  </svg>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
